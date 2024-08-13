@@ -17,8 +17,8 @@ The application should save this data into a database and display the books and 
 ### Instructions
 
 + Create a new Laravel project.
-+ Set up the project to use your choosen database.
-+ Set up a `.env` file with the appropriate database configurations.
++ Set up the project to use your chosen database.
++ Set up a `.env` file with the appropriate database configuration.
 
 > [!IMPORTANT]
 > We would like you to use `https://openlibrary.org/developers/api`
@@ -50,7 +50,7 @@ Write a command, job or a controller action to:
 
 ### Display
 
-Whilst we are looking at Laravel specific skills we are not really interested on the UI side of things, so a simple blade file to display this info would be sufficient.
+Whilst we are looking at Laravel specific skills we are not really interested on the UI side of things, therefore a simple blade file to display this info would be sufficient.
 
 Create a Blade view to display the list of books. Each book should display:
 + The title of the book.
@@ -72,4 +72,4 @@ Include any assumptions or decisions you made while completing the task.
 
 ### Submission
 
-The completed Laravel project, either as a GitHub repository or a zipped file, along with any additional documentation.
+The completed project, either as a GitHub repository or a zipped file, along with any additional documentation should be provided to `lee.stables@reachstudios.co.uk`
