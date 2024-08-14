@@ -7,8 +7,7 @@ The goal of this test is to assess the developer’s ability to work with Larave
 
 ### Scenario
 
-You are tasked with building a simple Laravel application that consumes a public API that provides book and author data.
-The application should save this data into a database and display the books and authors using Blade templates.
+You are tasked with building a simple Laravel application that consumes a public API that looks up a products API and there respective categories.
 
 > [!NOTE]
 > Either MySQL or SQLite, your choice!
@@ -21,22 +20,22 @@ The application should save this data into a database and display the books and 
 + Set up a `.env` file with the appropriate database configuration.
 
 > [!IMPORTANT]
-> We would like you to use `https://openlibrary.org/developers/api`
+> Dummp API `https://dummyjson.com/products`
 
 
 ### API Consumption
 
-+ Write a service class in Laravel to consume the API. This service should:
-  + Fetch a list of books along with their associated authors.
++ Write a service class to consume the API, that includes:
+  + Fetch all products from the above link.
   + Handle possible API errors (e.g., network issues, non-200 responses).
 
 ### Database Interaction
 
 + Create the necessary database migrations:
-  + A books table with columns like id, title, description, author_id, published_date, etc.
-  + An authors table with columns like id, name, bio, etc.
+  + A products table with columns like id, title, description, price, category_id & SKU.
+  + A category table with columns like id, name.
 
-+ Create Eloquent models for Book and Author, defining the appropriate relationships
++ Create Eloquent models for both, defining the appropriate relationships
 
 
 ### Data Storage
@@ -52,11 +51,10 @@ Write a command, job or a controller action to:
 
 Whilst we are looking at Laravel specific skills we are not really interested on the UI side of things, therefore a simple blade file to display this info would be sufficient.
 
-Create a Blade view to display the list of books. Each book should display:
-+ The title of the book.
-+ The name of the author.
-+ The publication date.
-+ A brief description of the book.
+Create a Blade view to display the list of products. Each should display:
++ The title, description and price with the SKU.
++ Attach the category to the product.
++ If time allows a list of categories, that would update the page to show products within the selected category, but not a requirement.
 
 
 ### Testing (TDD)
