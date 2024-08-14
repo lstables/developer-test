@@ -33,8 +33,8 @@ We would like the use of Laravel Breeze and creation of an admin account to logi
 ### Database Interaction
 
 + Create the necessary database migrations:
-  + A products table with columns like id, title, description, price, category_id & SKU.
-  + A category table with columns like id, name.
+  + A products table with relevant columns.
+  + A category table with relevant columns.
 
 + Create Eloquent models for both, defining the appropriate relationships
 
@@ -52,10 +52,7 @@ Write a command, job or a controller action to:
 
 Whilst we are looking at Laravel specific skills we are not really interested on the UI side of things, therefore a simple blade file to display this info would be sufficient.
 
-Create a Blade view to display the list of products. Each should display:
-+ The title, description and price with the SKU.
-+ Attach the category to the product.
-+ If time allows a list of categories, that would update the page to show products within the selected category, but not a requirement.
+Create a Blade view to display the list of products.
 
 
 ### Testing (TDD)
