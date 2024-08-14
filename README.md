@@ -21,7 +21,7 @@ We would like the use of Laravel Breeze and creation of an admin account to logi
 + Set up a `.env` file with the appropriate database configuration.
 
 > [!IMPORTANT]
-> Dummp API `https://dummyjson.com/products`
+> Dummy API `https://dummyjson.com/products`
 
 
 ### API Consumption
