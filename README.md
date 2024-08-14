@@ -8,6 +8,7 @@ The goal of this test is to assess the developer’s ability to work with Larave
 ### Scenario
 
 You are tasked with building a simple Laravel application that consumes a public API that looks up a products API and there respective categories.
+We would like the use of Laravel Breeze and creation of an admin account to login with.
 
 > [!NOTE]
 > Either MySQL or SQLite, your choice!
