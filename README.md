@@ -55,7 +55,7 @@ Whilst we are looking at Laravel specific skills we are not really interested on
 Create a Blade view to display the list of products.
 
 
-### Testing (TDD)
+### Tests
 
 Whilst we understand the time constraint, it would be good to see any tests you can write whether it be unit or feature tests.
 
