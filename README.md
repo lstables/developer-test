@@ -50,22 +50,30 @@ Write a command, job or a controller action to:
 
 ### Display
 
-Whilst we are looking at Laravel specific skills we are not really interested on the UI side of things, therefore a simple blade file to display this info would be sufficient.
-
-Create a Blade view to display the list of products.
+We are not looking for anything flashy in terms of UI, simply use what comes from Breeze to display the list of products with a blade file.
 
 
-### Tests
+### Testing
 
-Whilst we understand the time constraint, it would be good to see any tests you can write whether it be unit or feature tests.
++ Write unit tests or feature tests to ensure:
+  + The API service works correctly and handles errors gracefully.
+  + The data is correctly saved in the database.
+  + The Blade view renders correctly and displays the data as expected.
+
+
+> [!NOTE]
+> Whilst we understand the time constraint, it would be good to see any tests you can write whether it be unit or feature tests.
 
 
 ### Documentation
 
-Provide clear instructions on how to set up and run the application.
-Include any assumptions or decisions you made while completing the task.
++ Provide clear instructions on how to set up and run the application.
++ Include any assumptions or decisions you made while completing the task.
 
 
-### Submission
+### Evaluation Criteria
 
-The completed project, either as a GitHub repository or a zipped file, along with any additional documentation should be provided to `lee.stables@reachstudios.co.uk`
++ Code Quality: Clear, readable, and maintainable code.
++ Laravel Best Practices: Use of Laravel features (e.g., Eloquent, Blade, Artisan commands) appropriately.
++ API Integration: Ability to consume and handle API data effectively.
++ Database Management: Proper database schema design and interaction using Eloquent.
